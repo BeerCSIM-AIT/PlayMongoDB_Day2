@@ -76,9 +76,11 @@ db.products.find(
     }
 );
 
+// sorting 1=Ascending, -1=Descending
 db.products.find().sort( { price : 1 } );
 db.products.find().sort( { price : -1 } );
 
+// sorting on 2 fields, price first, the quantity
 db.products.find().sort( { price : -1, quantity: -1 } );
 
 db.products.find({ name : { $ne : "shoes" } });
@@ -121,7 +123,7 @@ db.products.find(
         ]
     }
 );
-["aaa","bbb","ccc"]
+// ["aaa","bbb","ccc"]
 
 
 // SELECT * FROM product  WHERE 
