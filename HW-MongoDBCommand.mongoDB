@@ -1,0 +1,40 @@
+/*  ชื่อ <Your name>  รหัสนักศึกษา <Your ID>
+    -------------------------------------------------------------
+    - ให้เขียนคำสั่ง MongoDB ตามโจทย์ต่อไปนี้
+    - ตั้งชื่อไฟล์เป็น HW-MongoDBCommand-Yourname.mongodb
+*/
+
+// Q1 - Q4 ใช้ Connection ที่นักศึกษาสร้างเอง
+//  แปะ URL ของ MongoDB Connection ที่นี่ 
+//  <Paste URL Here>
+
+//  Q1 ให้ insert ข้อมูลนักศึกษาจำนวน 5 คน โดยกำหนดให้มีฟิลด์ดังนี้
+//  studentId, name, gender, age, email, tel, address {houseNo, district, city, zipcode}
+//  registeredCourse [course1, course2, ... ]
+
+// Q2 เพิ่มอายุขึ้น 1 ปี ของนักศึกษาที่อายุน้อยกว่า 20 ปี
+
+
+// Q3 เพิ่มวิชาที่ลงทะเบียนชื่อ TypeScript Programming ให้กับนักศึกษาที่ยังไม่ได้ลงทะเบียนวิชานี้
+
+
+// Q4 ลบรายชื่อนักศึกษาที่มีอายุเกิน 60 ปี
+
+
+
+/* -------------------------------------------------------
+    Q5 - Q8 ให้ใช้ Connection ต่อไปนี้
+    mongodb+srv://nvcit:nvcit@nvc-it.hpx34.mongodb.net/
+    และเลือก database ชื่อ soi5_shop
+*/
+
+// Q5 แสดงข้อมูล customers ทั้งหมด เฉพาะฟิลด์ name, email, address
+
+
+// Q6 แสดงข้อมูล products ที่มีฟิลด์ size โดยเรียงลำดับตามราคาสินค้า (price)
+
+
+// Q7 แสดงยอดขายทั้งหมดในคอลเลคชัน Sales เฉพาะรายการที่มี totalPrice มากกว่า 5000 โดยจัดกลุ่มตามฟิลด์ purchaseMethod
+
+
+// Q8 แสดงจำนวนรายการสั่งซื้อแยกตามเพศของ customer เฉพาะผู้ที่มีอายุต่ำกว่า 50 ปี และเรียงตามลำดับตามจำนวนรายการสั่งซื้อจากมากไปหาน้อย
